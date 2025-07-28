@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Volatility Forecast Report - NVDA</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+        .section { margin: 20px 0; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .metric { font-weight: bold; }
+        .value { font-family: monospace; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 Volatility Forecast Report</h1>
+        <h2>Ticker: NVDA</h2>
+        <p>Generated: 2025-07-28 00:59:26</p>
+    </div>
+    
+    <div class="section">
+        <h3>📈 Summary Statistics</h3>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data Points</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>Date Range</td>
+      <td>2024-07-26 to 2025-07-25</td>
+    </tr>
+    <tr>
+      <td>Mean Return</td>
+      <td>0.2350%</td>
+    </tr>
+    <tr>
+      <td>Return Std</td>
+      <td>3.5444%</td>
+    </tr>
+    <tr>
+      <td>Skewness</td>
+      <td>-0.0108</td>
+    </tr>
+    <tr>
+      <td>Kurtosis</td>
+      <td>4.9951</td>
+    </tr>
+    <tr>
+      <td>Model Type</td>
+      <td>GARCH</td>
+    </tr>
+    <tr>
+      <td>AIC</td>
+      <td>1313.5257</td>
+    </tr>
+    <tr>
+      <td>BIC</td>
+      <td>1324.0780</td>
+    </tr>
+    <tr>
+      <td>Log-Likelihood</td>
+      <td>-653.7628</td>
+    </tr>
+    <tr>
+      <td>Forecast Volatility</td>
+      <td>38.2923%</td>
+    </tr>
+    <tr>
+      <td>Forecast Horizon</td>
+      <td>10 days</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    
+    <div class="section">
+        <h3>🔧 Model Parameters</h3>
+        <table>
+            <tr><th>Parameter</th><th>Value</th></tr>
+            <tr><td>omega</td><td class='value'>1.039061</td></tr>
+            <tr><td>alpha[1]</td><td class='value'>0.192760</td></tr>
+            <tr><td>beta[1]</td><td class='value'>0.737749</td></tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h3>📊 Forecast Details</h3>
+        <p>Forecast Horizon: 10 days</p>
+        <p>Forecast Method: analytic</p>
+        <p>Forecast Volatility: 38.2923%</p>
+    </div>
+</body>
+</html>
